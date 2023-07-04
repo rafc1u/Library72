@@ -1,0 +1,315 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72\\Library72.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Application\\Library72.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Application\\Library72.Application.csproj",
+        "projectName": "Library72.Application",
+        "projectPath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Application\\Library72.Application.csproj",
+        "packagesPath": "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RafałKaszubowski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ewl-platforma/Platform/_packaging/platform-feed/nuget/v2": {},
+          "https://pkgs.dev.azure.com/ewl-platforma/Platform/_packaging/platform-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Domain\\Library72.Domain.csproj": {
+                "projectPath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Domain\\Library72.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Domain\\Library72.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Domain\\Library72.Domain.csproj",
+        "projectName": "Library72.Domain",
+        "projectPath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Domain\\Library72.Domain.csproj",
+        "packagesPath": "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RafałKaszubowski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ewl-platforma/Platform/_packaging/platform-feed/nuget/v2": {},
+          "https://pkgs.dev.azure.com/ewl-platforma/Platform/_packaging/platform-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Storage\\Library72.Storage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Storage\\Library72.Storage.csproj",
+        "projectName": "Library72.Storage",
+        "projectPath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Storage\\Library72.Storage.csproj",
+        "packagesPath": "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Storage\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RafałKaszubowski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ewl-platforma/Platform/_packaging/platform-feed/nuget/v2": {},
+          "https://pkgs.dev.azure.com/ewl-platforma/Platform/_packaging/platform-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Application\\Library72.Application.csproj": {
+                "projectPath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Application\\Library72.Application.csproj"
+              },
+              "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Domain\\Library72.Domain.csproj": {
+                "projectPath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Domain\\Library72.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72\\Library72.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72\\Library72.csproj",
+        "projectName": "Library72",
+        "projectPath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72\\Library72.csproj",
+        "packagesPath": "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RafałKaszubowski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ewl-platforma/Platform/_packaging/platform-feed/nuget/v2": {},
+          "https://pkgs.dev.azure.com/ewl-platforma/Platform/_packaging/platform-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Application\\Library72.Application.csproj": {
+                "projectPath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Application\\Library72.Application.csproj"
+              },
+              "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Storage\\Library72.Storage.csproj": {
+                "projectPath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Storage\\Library72.Storage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.OData": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

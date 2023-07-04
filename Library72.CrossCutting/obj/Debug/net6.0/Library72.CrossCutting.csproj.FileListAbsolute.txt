@@ -1,0 +1,12 @@
+C:\Users\RafałKaszubowski\source\repos\Library72\Library72.CrossCutting\bin\Debug\net6.0\Library72.CrossCutting.deps.json
+C:\Users\RafałKaszubowski\source\repos\Library72\Library72.CrossCutting\bin\Debug\net6.0\Library72.CrossCutting.dll
+C:\Users\RafałKaszubowski\source\repos\Library72\Library72.CrossCutting\bin\Debug\net6.0\Library72.CrossCutting.pdb
+C:\Users\RafałKaszubowski\source\repos\Library72\Library72.CrossCutting\obj\Debug\net6.0\Library72.CrossCutting.csproj.AssemblyReference.cache
+C:\Users\RafałKaszubowski\source\repos\Library72\Library72.CrossCutting\obj\Debug\net6.0\Library72.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RafałKaszubowski\source\repos\Library72\Library72.CrossCutting\obj\Debug\net6.0\Library72.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\RafałKaszubowski\source\repos\Library72\Library72.CrossCutting\obj\Debug\net6.0\Library72.CrossCutting.AssemblyInfo.cs
+C:\Users\RafałKaszubowski\source\repos\Library72\Library72.CrossCutting\obj\Debug\net6.0\Library72.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\RafałKaszubowski\source\repos\Library72\Library72.CrossCutting\obj\Debug\net6.0\Library72.CrossCutting.dll
+C:\Users\RafałKaszubowski\source\repos\Library72\Library72.CrossCutting\obj\Debug\net6.0\refint\Library72.CrossCutting.dll
+C:\Users\RafałKaszubowski\source\repos\Library72\Library72.CrossCutting\obj\Debug\net6.0\Library72.CrossCutting.pdb
+C:\Users\RafałKaszubowski\source\repos\Library72\Library72.CrossCutting\obj\Debug\net6.0\ref\Library72.CrossCutting.dll

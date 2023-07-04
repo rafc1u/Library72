@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zPj+fJIIeYXbpX8t0c/swM41czHHMhjwTQmQSxmCiYtBKP0J0dqVSn1FA/iMjXZSxQstcty0aP1dTW+X5nY3jg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Domain\\Library72.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.8\\microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

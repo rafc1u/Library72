@@ -1,0 +1,235 @@
+{
+	"info": {
+		"_postman_id": "03a60c88-b36e-4fc9-9630-c1a3d71733f0",
+		"name": "Library72",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search - odata",
+			"item": [
+				{
+					"name": "Pagination only",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7025/api/search?&skip=0&top=25",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7025",
+							"path": [
+								"api",
+								"search"
+							],
+							"query": [
+								{
+									"key": null,
+									"value": null
+								},
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "top",
+									"value": "25"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Filter - borrowed book with total count of borrowed books",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7025/api/search?&skip=0&top=25&filter=userid gt 0",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7025",
+							"path": [
+								"api",
+								"search"
+							],
+							"query": [
+								{
+									"key": null,
+									"value": null
+								},
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "top",
+									"value": "25"
+								},
+								{
+									"key": "filter",
+									"value": "userid gt 0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pagination and sort",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7025/api/search?&skip=0&top=25",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7025",
+							"path": [
+								"api",
+								"search"
+							],
+							"query": [
+								{
+									"key": null,
+									"value": null
+								},
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "top",
+									"value": "25"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Filter by title - the Raven",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7025/api/search?&skip=0&top=25&filter=contains(title,'rav')",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7025",
+							"path": [
+								"api",
+								"search"
+							],
+							"query": [
+								{
+									"key": null,
+									"value": null
+								},
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "top",
+									"value": "25"
+								},
+								{
+									"key": "filter",
+									"value": "contains(title,'rav')"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "invertedwords",
+			"item": [
+				{
+					"name": "invertedwords",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7025/api/invertedwords?Id=3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7025",
+							"path": [
+								"api",
+								"invertedwords"
+							],
+							"query": [
+								{
+									"key": "Id",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "invertedwords not found",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7025/api/invertedwords?Id=3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7025",
+							"path": [
+								"api",
+								"invertedwords"
+							],
+							"query": [
+								{
+									"key": "Id",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Report",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7025/api/report",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7025",
+					"path": [
+						"api",
+						"report"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

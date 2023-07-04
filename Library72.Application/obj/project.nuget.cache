@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "/WeoaFLoVhSvPQgSdirkX6bbsOyBSMI9DB/kGDT4iDqqHQckcrGJzE3e4tw4fMNQeokqDyU8VxJElZk6K7A7KA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\RafałKaszubowski\\source\\repos\\Library72\\Library72.Application\\Library72.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.8\\microsoft.entityframeworkcore.7.0.8.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.8\\microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.8\\microsoft.entityframeworkcore.analyzers.7.0.8.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.8\\microsoft.entityframeworkcore.relational.7.0.8.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\RafałKaszubowski\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
