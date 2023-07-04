@@ -9,10 +9,10 @@ namespace Library72.Application.Books.GetBookWithInvertedTitle;
 
 internal class GetBookWithInvertedTitleQueryHandler : IRequestHandler<GetBookWithInvertedTitleQuery, GetBookWithInvertedTitleDto>
 {
-	private readonly IDbContext _dbContext;
+	private readonly ILibrary72DbContext _dbContext;
 	private readonly BookToGetBookWithInvertedTitleDtoMapping _bookToGetBookWithInvertedTitleDtoMapping;
 
-	public GetBookWithInvertedTitleQueryHandler(IDbContext dbContext, BookToGetBookWithInvertedTitleDtoMapping bookToGetBookWithInvertedTitleDtoMapping)
+	public GetBookWithInvertedTitleQueryHandler(ILibrary72DbContext dbContext, BookToGetBookWithInvertedTitleDtoMapping bookToGetBookWithInvertedTitleDtoMapping)
 	{
 		_dbContext = dbContext;
 		_bookToGetBookWithInvertedTitleDtoMapping = bookToGetBookWithInvertedTitleDtoMapping;

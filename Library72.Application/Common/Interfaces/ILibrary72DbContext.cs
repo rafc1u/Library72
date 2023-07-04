@@ -1,10 +1,9 @@
-﻿using System;
-using Library72.Domain.Entities;
+﻿using Library72.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Library72.Application.Common.Interfaces;
 
-public interface IDbContext
+public interface ILibrary72DbContext
 {
 	DbSet<Author> Authors { get; }
 

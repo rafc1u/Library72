@@ -7,10 +7,10 @@ namespace Library72.Application.Books.GetBooksList;
 
 public class GetBooksListQueryHandler : IRequestHandler<GetBooksListQuery, IQueryable<GetBooksListQueryDto>>
 {
-	private readonly IDbContext _dbContext;
+	private readonly ILibrary72DbContext _dbContext;
 	private readonly BookTakenToBookSearchListDtoMapping _bookToBookSearchListDtoMapping;
 
-	public GetBooksListQueryHandler(IDbContext dbContext, BookTakenToBookSearchListDtoMapping bookToBookSearchListDtoMapping)
+	public GetBooksListQueryHandler(ILibrary72DbContext dbContext, BookTakenToBookSearchListDtoMapping bookToBookSearchListDtoMapping)
 	{
 		_dbContext = dbContext;
 		_bookToBookSearchListDtoMapping = bookToBookSearchListDtoMapping;

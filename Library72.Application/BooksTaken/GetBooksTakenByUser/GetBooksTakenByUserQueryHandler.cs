@@ -7,9 +7,9 @@ namespace Library72.Application.BooksTaken.GetBooksTakenByUser;
 
 internal class GetBooksTakenByUserQueryHandler : IRequestHandler<GetBooksTakenQuery, IEnumerable<GetBooksTakenByUsersDto>>
 {
-    private readonly IDbContext _dbContext;
+    private readonly ILibrary72DbContext _dbContext;
 
-    public GetBooksTakenByUserQueryHandler(IDbContext dbContext)
+    public GetBooksTakenByUserQueryHandler(ILibrary72DbContext dbContext)
     {
         _dbContext = dbContext;
     }
