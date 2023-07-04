@@ -2,7 +2,7 @@
 using Library72.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Library72.Storage;
+namespace Library72.Infrastructure.Persistance;
 
 public partial class Library72DbContext : DbContext, ILibrary72DbContext
 {

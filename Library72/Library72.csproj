@@ -18,7 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Library72.Application\Library72.Application.csproj" />
-    <ProjectReference Include="..\Library72.Storage\Library72.Storage.csproj" />
+    <ProjectReference Include="..\Library72.Storage\Library72.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

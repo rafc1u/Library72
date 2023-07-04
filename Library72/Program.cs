@@ -3,7 +3,7 @@ using Library72.Application;
 using Library72.CustomSwaggerOperationFilters;
 using Library72.Extensions;
 using Library72.Filters;
-using Library72.Storage;
+using Library72.Infrastructure.Persistance;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

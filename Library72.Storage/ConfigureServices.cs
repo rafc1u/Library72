@@ -1,5 +1,5 @@
 ﻿using Library72.Application.Common.Interfaces;
-using Library72.Storage;
+using Library72.Infrastructure.Persistance;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Library72.Application;

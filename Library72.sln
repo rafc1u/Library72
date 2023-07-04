@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library72", "Library72\Library72.csproj", "{8F08B84C-764E-4656-806F-01D9DF91B0E6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library72.Storage", "Library72.Storage\Library72.Storage.csproj", "{CE5A689D-0098-427B-9186-68CD8181CC3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library72.Infrastructure", "Library72.Storage\Library72.Infrastructure.csproj", "{CE5A689D-0098-427B-9186-68CD8181CC3D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library72.Application", "Library72.Application\Library72.Application.csproj", "{28F8CE24-941F-4040-B2B5-F0DBB7B08D05}"
 EndProject
