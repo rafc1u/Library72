@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "03a60c88-b36e-4fc9-9630-c1a3d71733f0",
+		"_postman_id": "b159d6ea-e96e-46c4-aee0-f5cbae11b088",
 		"name": "Library72",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -115,7 +115,7 @@
 					"response": []
 				},
 				{
-					"name": "Filter by title - the Raven",
+					"name": "Filter by text in title - the Raven",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -146,6 +146,120 @@
 								{
 									"key": "filter",
 									"value": "contains(title,'rav')"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Filter by authorFirstName or authoerFirstName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7025/api/search?&skip=0&top=25&filter=contains(authorFirstName,'edgar') or contains(authorFirstName, 'Ernest')",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7025",
+							"path": [
+								"api",
+								"search"
+							],
+							"query": [
+								{
+									"key": null,
+									"value": null
+								},
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "top",
+									"value": "25"
+								},
+								{
+									"key": "filter",
+									"value": "contains(authorFirstName,'edgar') or contains(authorFirstName, 'Ernest')"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Filter by text in description using OR",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7025/api/search?&skip=0&top=25&filter=contains(description,'supernatural') or contains(description, 'drama')",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7025",
+							"path": [
+								"api",
+								"search"
+							],
+							"query": [
+								{
+									"key": null,
+									"value": null
+								},
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "top",
+									"value": "25"
+								},
+								{
+									"key": "filter",
+									"value": "contains(description,'supernatural') or contains(description, 'drama')"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Filter by user who is holding the book using firstName AND lastname",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7025/api/search?&skip=0&top=25&filter=firstName eq 'james' and lastName eq 'Hetfield'",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7025",
+							"path": [
+								"api",
+								"search"
+							],
+							"query": [
+								{
+									"key": null,
+									"value": null
+								},
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "top",
+									"value": "25"
+								},
+								{
+									"key": "filter",
+									"value": "firstName eq 'james' and lastName eq 'Hetfield'"
 								}
 							]
 						}
